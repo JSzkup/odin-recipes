@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Tahoma, "Trebuche MS", Arial;
+    text-align: center;
+    background-color: rgb(146, 11, 2);
+}
+
+div {
+    background-color: lightgrey;
+    width: 900px;
+    border: 50px blue;
+    margin: auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: green;
+}
+
+ul {
+    /* list-style-position: inside; */
+    display: inline-block;
+
+}
