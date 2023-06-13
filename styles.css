@@ -1,23 +1,41 @@
+html {
+    background-color: #29335C;
+}
+
 body {
     font-family: Verdana, Tahoma, "Trebuche MS", Arial;
     text-align: center;
-    background-color: rgb(146, 11, 2);
+    background-color: #9CAFB7;
+    margin: 50px 30px;
+    padding: 15px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid #d0cbcb;
+    border-top: 10px solid rgb(225, 216, 216);
 }
 
 div {
-    background-color: lightgrey;
+    background-color: #9CAFB7;
     width: 900px;
-    border: 50px blue;
     margin: auto;
 }
 
 h1 {
     font-size: 100px;
-    color: green;
+    color: #E4572E;
+    border-bottom: 3px solid #29335C;
+
 }
 
 ul {
     /* list-style-position: inside; */
     display: inline-block;
+    border-left: 3px solid black;
+    text-align: left;
+
+}
+
+ul li {
+    padding: 5px;
 
 }
